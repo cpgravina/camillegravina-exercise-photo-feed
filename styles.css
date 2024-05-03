@@ -4,9 +4,8 @@ body {
 	background: lightgray;
 }
 
-header {
-    background: white;
-	height: 70px;
+.page-header {
+	background: white;
 }
 
 h1 {
@@ -14,60 +13,48 @@ h1 {
 	text-align: center;
 	font-family: "Roboto", sans-serif;
 	padding: 10px;
+	margin: 0%;
 }
 
 .feed {
-	background: white;
-	width: 600px;
-	height: 500px;
-	margin: 50px auto 50px auto;
-	display: block;
-}
-
-.photo-header {
 	display: flex;
-	width: 100%;
-	height: 10%;
+	flex-direction: column;
+	align-items: center;
 }
 
-h2 {
-	width: 90%;
+.post {
+	background: white;
+	padding: 5px;
+	margin: 40px;
+	width: 700px;
+	height: auto;
+}
+
+.post-header {
+	display: flex;
+	justify-content: space-between;
+}
+
+ .post-header-h2 {
 	font-size: 20px;
 	font-family: "Roboto", sans-serif;
-	margin-left: 10px;
-}
+ }
 
-p {
-	font-family: "Roboto", sans-serif;
-}
-
-.date {
-	width: 10%;
+ .post-date {
+	font-size: 20px;
 	color: lightgray;
-}
-input {
-	width: 20%;
-}
+	margin: 0%;
+	font-family: "Roboto", sans-serif;
+ }
 
-.photo-body {
-	height: 80%;
-	width: 100%;
-}
-
-.photo-body-img {
-	height: 100%;
-	width: 100%;
-}
-
-
-.photo-footer {
-	width: 100%;
-	height: 10%;
-	background: white;
+img {
+	height: auto;
+	width: 700px;
 }
 
 .footer-text {
-	justify-content: center;
-	padding: 5px;
-	width: 100%;
+	background: white;
+	padding: 15px;
+	font-family: "Roboto", sans-serif;
+	margin: 0%;
 }
